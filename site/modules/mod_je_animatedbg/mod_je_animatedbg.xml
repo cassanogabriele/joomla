@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.3" type="module" client="site" method="upgrade">
+	<name>JE Animated Background</name> 
+    <version>3.3</version>
+    <creationDate>May, 2015</creationDate>
+    <author>jExtensions.com</author>
+    <authorEmail>support@jExtensions.com</authorEmail>
+    <authorUrl>http://jExtensions.com</authorUrl>
+    <copyright>Copyright 2015 - jExtensions.com</copyright>
+    <license>GNU/GPL</license>
+	<description><![CDATA[
+	<h1 class="sub-heading">JE Animated Background Color</h1>	
+	<div class="description">Download more free extensions from <a href="http://jextensions.com/" target="_blank">jExtensions.com</a><br/>
+	Need help? <a href="http://jextensions.com/animated-background-color-module-joomla/" target="_blank">Click here to visit the support page</a>.<br/>
+	<span class="credits">Credits: <a href="http://webdesignerwall.com/tutorials/animating-background-colors" target="_blank" >WebDesignerWall</a></span>
+	</div>
+		]]>
+	</description>
+
+	<files>
+		<filename module="mod_je_animatedbg">mod_je_animatedbg.php</filename>
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>php</folder>
+		<folder>js</folder>
+	</files>
+
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_je_animatedbg/php">
+		<fieldset name="basic">
+			<field name="jQuery" type="list" default="0" label="jQuery" description="Enable or Disable the latest jQuery version. Make sure that jQuery is loaded only once on your website.">
+				<option value="0">Disable</option>
+				<option	value="1">Enable</option>
+			</field>		
+				<field name="bgSpeed" type="text" default="2000" label="Animation Speed" description="" />
+				<field name="bgColor1" type="jscolor" default="#F26522" label="Background #1" description="" />
+				<field name="bgColor2" type="jscolor" default="#00BFF3" label="Background #2" description="" />
+				<field name="bgColor3" type="jscolor" default="#EC008C" label="Background #3" description="" />
+				<field name="bgColor4" type="jscolor" default="#8DC63F" label="Background #4" description="" />
+				<field name="bgColor5" type="jscolor" default="#4B5F83" label="Background #5" description="" />
+				
+				<field type="asset" />
+		</fieldset>
+
+	</fields>
+	</config>
+</extension>

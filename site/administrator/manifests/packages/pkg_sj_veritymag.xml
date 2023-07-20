@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.0" method="upgrade">
+	<name>Package - Sj Maxshop</name>
+	<packagename>sj_veritymag</packagename>
+    <packager>YT Framework</packager>   
+	<creationDate>Mar 08, 2015</creationDate>
+	<version>1.0.0</version>
+	<author> YouTech Company </author>
+	<authorEmail>support@Smartaddons.com</authorEmail>
+	<authorUrl>www.Smartaddons.com</authorUrl>
+	<copyright>Smartaddons</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later</license>
+   
+   <description></description>    	
+    
+	<scriptfile>pkg_sj_veritymag.script</scriptfile>
+	<files folder="source">
+   		<file type="plugin" id="yt" group="system">yt</file>
+		<file type="plugin" id="ytshortcodes" group="system">ytshortcodes</file>
+   		<file type="template" id="sj_veritymag" client="site">sj_veritymag</file>
+ 	</files>
+ 	
+</extension>

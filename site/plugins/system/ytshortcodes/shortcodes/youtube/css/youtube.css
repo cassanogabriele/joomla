@@ -1,0 +1,25 @@
+
+div.yt-youtube {
+  
+}
+div.yt-youtube.pull-none {
+  margin-bottom: 0;
+}
+div.yt-youtube.pull-left {
+  margin: 0 1em 1em 0;
+}
+div.yt-youtube.pull-right {
+  margin: 0 0 1em 1em;
+}
+div.yt-youtube iframe {
+  border: none;
+}
+div.yt-youtube iframe {
+  border: none;
+}
+.yt-responsive-media-yes {}
+.yt-responsive-media-yes iframe,
+.yt-responsive-media-yes object,
+.yt-responsive-media-yes embed {}
+.yt-youtube { margin: 0 }
+.yt-youtube iframe { border: none !important }

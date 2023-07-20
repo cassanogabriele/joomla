@@ -1,0 +1,6 @@
+{% extends "partials/page.html.twig" %}
+
+{% block page_layout %}
+    {% do gantry.theme.joomla(true) %}
+    <jdoc:include type="component" />
+{% endblock %}

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+<name>pjo_jobconsultants_free</name>
+<version>1.0</version>
+<creationDate>2015</creationDate>
+<author>pickjoomla</author>
+<authorEmail>pickjoomla.com</authorEmail>
+<authorUrl>http://www.pickjoomla.com</authorUrl>
+<copyright>copyright (c) 2015 - pickjoomla.com</copyright>
+<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+<description>
+<![CDATA[
+<link href="../templates/pjo_jobconsultants_free/css/admin.css" rel="stylesheet" type="text/css" media="all" />
+<div class="temp_description">
+<p>
+<b>
+Free Joomla! 3.x Bootstrap Template, LIMITED FEATURES...<br> <p></p>
+<a href="http://demo4.pickjoomla.com/?template=pjo_jobconsultants" target="_blank">Template Demo</a> <br> 
+<a href="http://www.pickjoomla.com" target="_blank">Main Site</a> <br>
+<a href="http://www.pickjoomla.com/pjo-jobconsultants-pro" target="_blank">More Features...</a> <br>
+</b>
+</p>
+</div>
+<p></p>
+<img src="../templates/pjo_jobconsultants_free/template_thumbnail.png" border="0" title="" alt=""/>
+<p></p>
+]]>
+</description>
+<files>
+<filename>index.php</filename>
+<filename>component.php</filename>
+<filename>template_thumbnail.png</filename>
+<filename>templateDetails.xml</filename>
+<folder>images</folder>
+<folder>css</folder>
+<folder>html</folder>
+<folder>language</folder>
+<folder>elements</folder>
+</files>
+<positions>
+<position>left</position>
+<position>right</position>
+<position>header_top1</position>
+<position>header_top2</position>
+<position>top1</position>
+<position>top2</position>
+<position>top3</position>
+<position>top4</position>
+<position>bottom1</position>
+<position>bottom2</position>
+<position>bottom3</position>
+<position>bottom4</position>
+<position>footer</position>
+<position>footer1</position>
+<position>footer2</position>
+<position>footer3</position>
+<position>footer4</position>
+</positions>
+<languages folder="language">
+<language tag="en-GB">en-GB/en-GB.tpl_pjo_jobconsultants_free.ini</language>
+</languages>
+<config>
+
+<fields name="params" addfieldpath="/templates/pjo_jobconsultants_free/elements">
+<!-- GENERAL -->
+
+<fieldset name="gener_par" label="Advanced">
+
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; Logo &lt;/div&gt;" />
+<field name="logoFile" type="media" default="" label="Logo Image" description="Upload your logo image" />
+<field name="sitetitle"  type="text" default="" label="Logo Text" description="Site Name (Add your site name here to disable logo image)" filter="string" />
+<field name="sitedescription"  type="text" default="" label="Slogan" description="Site Slogan (Add your slogan here, in case like to use it as text)" filter="string" />
+
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; Menu &lt;/div&gt;" />
+<field name="hornav_menu" type="menu" default="mainmenu" label="Select Menu" description="Select menu to display on top horizontal" />
+
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; Footer &lt;/div&gt;" />
+<field name="comp_info" label="Your Site Information" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="edit footer site information, HTML allowed (footer link can be disabled only on pro template)" />
+
+</fieldset>
+
+<!-- //GENERAL -->
+
+<!-- SLIDESHOW -->
+<fieldset name="slideshow_parameters" label="Site Slideshow">
+<field name="menuid" type="menuitem"  multiple="true" size="10" default="0" label="Menu" description="Select menu items where the slideshow should, scroll down and upload your images" >
+<option value="0">Selected Items</option>
+</field>
+
+<!-- SLIDE 1 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 1&lt;/div&gt;" />
+<field name="image1" label="Image" type="media" description="Choose an image." />
+<field name="slidetext1" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- SLIDE 2 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 2&lt;/div&gt;" />
+<field name="image2" label="Image" type="media" description="Choose an image." />
+<field name="slidetext2" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- SLIDE 3 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 3&lt;/div&gt;" />
+<field name="image3" label="Image" type="media"  description="Choose an image." />
+<field name="slidetext3" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- SLIDE 4 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide4 &lt;/div&gt;" />
+<field name="image4" label="Image" type="media"  description="Choose an image." />
+<field name="slidetext4" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- slide 5 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; slide5&lt;/div&gt;" />
+<field name="image5" label="Image" type="media"  description="Choose an image." />
+<field name="slidetext5" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- slide 6 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; slide6&lt;/div&gt;" />
+<field name="image6" label="Image" type="media"  description="Choose an image." />
+<field name="slidetext6" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- slide 7 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; slide7 &lt;/div&gt;" />
+<field name="image7" label="Image" type="media"  description="Choose an image." />
+<field name="slidetext7" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- slide 8 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; slide8 &lt;/div&gt;" />
+<field name="image8" label="Image" type="media"  description="Choose an image." />
+<field name="slidetext8" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- slide 9 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; slide9 &lt;/div&gt;" />
+<field name="image9" label="Image" type="media"  description="Choose an image." />
+<field name="slidetext9" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+<!-- slide 10 -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; slide10 &lt;/div&gt;" />
+<field name="image10" label="Image 10" type="media"  description="Choose an image." />
+<field name="slidetext10" label="Slidetext" type="textarea" filter="safehtml" cols="30" rows="5" default="" description="Add image caption here" />
+
+</fieldset>
+<!-- // SLIDESHOW -->
+
+<!-- SOCIALMEDIA  -->
+<fieldset name="social_media" label="Socialmedia">
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Social-Media Links&lt;/div&gt;" />
+<field name="display_social_links" type="list" default="no" label="Socialmedia" description="Enable or disable socialmedia links here">
+<option value="yes">Enable</option>
+<option value="no">Disable</option>
+</field>
+
+<field name="item_twitter_sw" type="list" default="1" label="Twitter" description="Enable Twitter Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_twitter" type="text" size="60" default="https://twitter.com/" label="Your Twitter Url" description="Twitter URL" />
+
+<field name="item_facebook_sw" type="list" default="1" label="Facebook" description="Enable Facebook Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_facebook" type="text" size="60" default="https://www.facebook.com/" label="Your Facebook Url" description="Facebook URL" />
+
+<field name="item_google_sw" type="list" default="1" label="Google" description="Enable Google Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_google" type="text" size="60" default="https://plus.google.com/" label="Your Google Url" description="Google URL" />
+
+<field name="item_myspace_sw" type="list" default="1" label="MySpace" description="Enable MySpace Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_myspace" type="text" size="60" default="http://www.myspace.com/" label="Your MySpace Url" description="MySpace URL" />
+
+<field name="item_linkedin_sw" type="list" default="1" label="LinkedIn" description="Enable LinkedIn Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_linkedin" type="text" size="60" default="http://www.linkedin.com/" label="Your LinkedIn Url" description="LinkedIn URL" />
+
+<field name="item_blogger_sw" type="list" default="1" label="Youtube" description="Enable Youtube Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_blogger" type="text" size="60" default="http://www.youtube.com/" label="Your Youtube Url" description="Youtube URL" />
+
+<field name="item_flickr_sw" type="list" default="0" label="Vimeo" description="Enable Vimeo Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_flickr" type="text" size="60" default="http://www.vimeo.com/" label="Your Vimeo Url" description="Vimeo URL" />
+
+<field name="item_rssfeed_sw" type="list" default="0" label="RSS Feed" description="Enable RSS Feed Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_rssfeed" type="text" size="60" default="index.php" label="Your RSS Feed Url" description="RSS Feed URL" />
+
+<field name="item_stumble_sw" type="list" default="1" label="Skype" description="Enable Skype Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_stumble" type="text" size="60" default="http://www.skype.com/" label="Your Skype Url" description="Skype URL" />
+</fieldset>
+
+</fields>
+</config>
+</extension>
+
